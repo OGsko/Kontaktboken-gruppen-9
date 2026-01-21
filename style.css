@@ -43,8 +43,32 @@ body {
     cursor: pointer;
 }
 
-.knapp {
-    background-color: rgb(255,189,194);
+.knappr {
+    background-color: rgb(151, 158, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.knappo {
+    background-color: rgb(255, 135, 145);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.knappa {
+    background-color: rgb(207, 159, 252);
     border: none;
     color: rgb(0, 0, 0);
     padding: 15px 32px;
@@ -63,4 +87,8 @@ ul {
   /* Optional: ensure bullets are 'outside' for proper indentation */
   list-style-position: outside; 
   padding-left: 205px; 
+}
+
+.listapositionering {
+    padding-top: 5px;
 }
