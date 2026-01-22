@@ -3,7 +3,13 @@ body {
     text-align: center;
     font-family: Inter;
     font-size: 24px;
+    padding: 15px 32px;
+}
 
+/* muspekaren ser "klickbar" ut vid hover. */
+img {
+    cursor: pointer;
+    width: 256px;
 }
 
 .tillbaka {
@@ -16,6 +22,7 @@ body {
     display: inline-block;
     font-size: 18px;
     cursor: pointer;
+    border-radius: 55px;
 }
 
 .github {
@@ -28,6 +35,7 @@ body {
     display: inline-block;
     font-size: 18px;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .linkedin {
@@ -40,6 +48,7 @@ body {
     display: inline-block;
     font-size: 18px;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .knappr {
@@ -52,7 +61,6 @@ body {
     display: inline-block;
     font-size: 18px;
     cursor: pointer;
-    border-radius: 55px;
 }
 
 .knappo {
@@ -65,7 +73,6 @@ body {
     display: inline-block;
     font-size: 18px;
     cursor: pointer;
-    border-radius: 55px;
 }
 
 .knappa {
@@ -78,12 +85,33 @@ body {
     display: inline-block;
     font-size: 18px;
     cursor: pointer;
-    border-radius: 55px;
-}
-.links {
-padding-top: 15px;
 }
 
+.tilloskarssida {
+    background-color: rgb(255, 135, 145);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 55px;
+}
+
+.tillalindessida {
+    background-color: rgb(207, 159, 252);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 55px;
+}
 /* Lägger till "BULLET" points på onumrerad lista som centreras med text-align: center (syns ej utan detta) */
 ul {
   display: inline-block; /* Shrinks the list box to fit the text */

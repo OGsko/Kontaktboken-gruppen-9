@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ronaldos Sida</title>
     <!--css-->
-    <link href="/style.css" rel="stylesheet">
+    <link href="ronaldo_style.css" rel="stylesheet">
     <!-- Google Fonts API / FONT = INTER -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,14 +13,19 @@
 
 </head>
 <body>
-    <a href="/index.html" class="tillbaka">Tillbaka till huvudsidan</a>
+    <a href="/index.html" class="tillbaka"><b>Tillbaka till huvudsidan</b></a>
     <!-- Namn -->
     <h1>Ronaldo Jasar</h1>
-    <!-- Bild -->
-    <img src="/Ronaldos_page/BORGIR.png" alt="En unge som njuter av en så kallad Borgir." style="width: 256px;">
+    <!-- Borgir audio + onclick play myaudio eller nu då borgir som jag så fint kallat den :P -->
+     <audio id="borgir">
+    <source src="borgir.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    <img src="/Ronaldos_page/BORGIR.png" alt="En unge som njuter av en så kallad Borgir." onclick="document.getElementById('borgir').play()">
+
     <!-- Kort text om tidigare erfarenheter av programmering/webbutveckling -->
      <h4>Tidigare erfarenhet av programmering/webbutveckling</h4>
-     <p>Under min gymnasiegång har jag läst HTML och CSS men ingenting jag minns eller har med mig. Lua scripting tycker jag är väldigt kul men jag är fortfarande något av en nybörjare. </p>
+     <p>Under min gymnasiegång har jag läst Webbutveckling 1 men har glömt en hel del. Lua scripting tycker jag är väldigt kul men jag är fortfarande något av en nybörjare. </p>
    
      <!-- Onumrerad lista på saker jag är bra på -->
      <div class="listapositionering">
@@ -28,18 +33,26 @@
      <ul>
         <li>Hitta intressanta hobbys eller projekt och lära mig nytt!</li>
         <li>Bygga datorer</li>
-        <li>Medeltida point & click-spel. Om du är <a href="https://www.youtube.com/watch?v=smkA5veKRe4" target="_blank">intresserad.</a></li>
+        <li>Medeltida point & click-spel. Om du är <a href="https://www.youtube.com/watch?v=smkA5veKRe4" target="_blank"><i>intresserad.</i></a></li>
         <li>Spendera 43 minuter på att försöka skriva det jag är bra på</li>
      </ul>
      </div>
 
      <div class="links">
      <h3>Länkar</h3>
-     <a href="https://github.com/ronaldojasar" target="_blank" class="github">GitHub</a>
-     <a href="https://linkedin.com/in/ronaldojasar" target="_blank" class="linkedin">LinkedIn</a>
+     <a href="https://github.com/ronaldojasar" target="_blank" class="github"><b>GitHub</b></a>
+     <a href="https://linkedin.com/in/ronaldojasar" target="_blank" class="linkedin"><b>LinkedIn</b></a>
     <h6>(Öppnas i nytt fönster)</h6>
     </div>
 
-     
+    <!-- länka till gruppens sidor -->
+    <div class="tilloskarssida">
+        <a href="/Oskars_page/oskar.html" class="knappo"><b>Oskars sida</b></a>
+    </div>
+    
+    <div class="tillalindessida">
+        <a href="/Alindes_page/alinde.html" class="knappa" style="text-align: right;"><b>Alindes Sida</b></a>
+    </div>
 </body>
+    
 </html>
